@@ -12,14 +12,14 @@ unsigned long long int fac(int num){
 }
 
 int main(){
-
-    clock_t tStart = clock();
     
     unsigned long long int num;
     string exit;
 
     cout << "Please enter a number and this program will find the factorial:" << endl;
     cin >> num;
+    
+    clock_t tStart = clock();
 
     cout << fac(num) << endl;
 
