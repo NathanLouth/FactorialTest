@@ -29,7 +29,7 @@ int main(){
 
     cout << fac(num) << endl;
 
-    printf("Time taken: %.10fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
+    printf("Time taken: %.7fs\n", (double)(clock() - tStart)/CLOCKS_PER_SEC);
 
     cin >> exit;
     
